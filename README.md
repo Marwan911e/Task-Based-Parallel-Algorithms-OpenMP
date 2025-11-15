@@ -123,8 +123,7 @@ assignment-two/
 │
 ├── 📂 Task2-Parallel-Sorting/
 │   ├── parallel_merge_sort.c         # Recursive task-based merge sort
-│   ├── parallel_merge_sort.exe
-│   └── PERFORMANCE_REPORT.md         # Detailed performance analysis
+│   └── parallel_merge_sort.exe      
 │
 ├── 📂 Task3-File-Compressor/
 │   ├── parallel_file_compressor.c    # Pipeline with dependencies
