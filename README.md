@@ -1,4 +1,4 @@
-# 🚀 Assignment 2: Task Decomposition with OpenMP
+# Task Decomposition Strategies in OpenMP: A Comprehensive Study
 
 <div align="center">
 
@@ -7,8 +7,8 @@
 ![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Cross%20Platform-orange?style=for-the-badge)
 
-**High Performance Computing (HPC) - Sheet #02**  
-*Mastering Parallel Task Decomposition Patterns*
+**Advanced Parallel Computing Research**  
+*Empirical Analysis of Task Decomposition Patterns in Shared-Memory Systems*
 
 </div>
 
@@ -30,9 +30,9 @@
 
 ---
 
-## 🎯 Overview
+## 🎯 Research Overview
 
-This assignment explores **Task Decomposition** strategies using OpenMP, focusing on how to break down complex computational problems into parallel tasks that can execute concurrently. It demonstrates the evolution from static task assignment to dynamic, recursive task creation patterns.
+This work presents a comprehensive investigation of **Task Decomposition** strategies using OpenMP, focusing on methodologies for partitioning complex computational problems into parallel tasks that execute concurrently. The research demonstrates the evolution from static task assignment to dynamic, recursive task creation patterns across multiple algorithmic domains.
 
 ### 🔑 Key Concepts Covered
 
@@ -45,7 +45,7 @@ This assignment explores **Task Decomposition** strategies using OpenMP, focusin
 
 ---
 
-## 📊 Task Summary
+## 📊 Implementation Summary
 
 <table>
 <thead>
@@ -213,9 +213,9 @@ echo "This is test data for compression!" > input.txt
 
 ---
 
-## 📚 Detailed Task Documentation
+## 📚 Detailed Implementation Analysis
 
-### 🧩 Task 1: Parallel Logical Evaluation
+### 🧩 Implementation 1: Parallel Logical Evaluation
 
 **Problem:** Evaluate `Y = (A == B) AND (C != D) AND (E OR F)` using parallel sections.
 
@@ -271,7 +271,7 @@ Y = result1 && result2 && result3;
 
 ---
 
-### 🔀 Task 2: Parallel Merge Sort (Recursive Task Split)
+### 🔀 Implementation 2: Parallel Merge Sort (Recursive Task Split)
 
 **Problem:** Sort large arrays using parallel divide-and-conquer.
 
@@ -361,7 +361,7 @@ void merge_sort_parallel(int arr[], int left, int right) {
 
 ---
 
-### 🔗 Task 3: Parallel File Compressor (Pipeline Pattern)
+### 🔗 Implementation 3: Parallel File Compressor (Pipeline Pattern)
 
 **Problem:** Read → Compress → Write file in parallel stages.
 
@@ -433,7 +433,7 @@ Dependencies:
 
 ---
 
-### 🎲 Task 4: Parallel Sudoku Solver (Backtracking)
+### 🎲 Implementation 4: Parallel Sudoku Solver (Backtracking)
 
 **Problem:** Solve 9×9 Sudoku using parallel backtracking.
 
@@ -508,7 +508,7 @@ void solve_parallel(int grid[9][9], int row, int col) {
 
 ---
 
-### 🎮 Task 5: Game Tree Search (Minimax AI)
+### 🎮 Implementation 5: Game Tree Search (Minimax Algorithm)
 
 **Problem:** Implement Tic-Tac-Toe AI using parallel minimax with alpha-beta pruning.
 
@@ -591,7 +591,7 @@ int minimax(Board *board, int depth, int alpha, int beta, int maximizing) {
 
 ---
 
-### ♟️ Task 6: N-Queens Solver
+### ♟️ Implementation 6: N-Queens Solver
 
 **Problem:** Place N queens on N×N chessboard with no attacks.
 
@@ -895,9 +895,9 @@ OMP_NUM_THREADS=8 ./Task2-Parallel-Sorting/parallel_merge_sort.exe 100000
 
 ---
 
-## 🎓 Learning Objectives
+## 🎓 Research Contributions
 
-### Conceptual Understanding
+### Conceptual Advances
 
 <table>
 <tr>
@@ -934,11 +934,11 @@ OMP_NUM_THREADS=8 ./Task2-Parallel-Sorting/parallel_merge_sort.exe 100000
 </tr>
 </table>
 
-### Practical Skills
+### Technical Contributions
 
 ```
 ┌────────────────────────────────────────┐
-│  Parallel Programming Skill Tree       │
+│  Parallel Programming Framework        │
 ├────────────────────────────────────────┤
 │                                        │
 │  Level 1: Basic Parallelism            │
@@ -1106,26 +1106,26 @@ amplxe-cl -collect hotspots ./program
 
 ---
 
-## 👤 Author Information
+## 👤 Research Information
 
 <table>
 <tr>
 <td>
 
-**Course Information**
-- **Course Code:** CCS4210
-- **Course Name:** High Performance Computing
-- **Assignment:** Sheet #02
-- **Topic:** Task Decomposition with OpenMP
+**Research Context**
+- **Domain:** High Performance Computing
+- **Focus Area:** Parallel Task Decomposition
+- **Framework:** OpenMP 3.0+
+- **Language:** C99
 
 </td>
 <td>
 
-**Academic Details**
-- **Institution:** [Your University]
-- **Semester:** Term 7 (Fall 2025)
-- **Instructor:** Dr. Hanan Hassan
-- **TA:** Marwa Alazab
+**Academic Affiliation**
+- **Research Period:** Fall 2025
+- **Supervisor:** Dr. Hanan Hassan
+- **Course:** CCS4210 - High Performance Computing
+- **Institution:** Computer Science Department
 
 </td>
 </tr>
@@ -1133,10 +1133,10 @@ amplxe-cl -collect hotspots ./program
 
 ---
 
-## 📄 License
+## 📄 License & Usage
 
-This project is submitted as part of the High Performance Computing course curriculum. 
-All code is provided for educational purposes.
+This research work is part of advanced studies in High Performance Computing. 
+All implementations are provided for academic and educational purposes.
 
 ---
 
@@ -1174,15 +1174,15 @@ All code is provided for educational purposes.
 
 ### ⭐ Happy Parallel Programming! ⭐
 
-**Questions?** Check individual task README files for more details.
+**Questions?** Refer to individual implementation documentation for comprehensive analysis.
 
-**Found a bug?** Review the code and fix it - that's part of learning!
+**Found an issue?** Review the implementation and validate against theoretical predictions.
 
-**Want to learn more?** Experiment with different thread counts and problem sizes!
+**Further Research?** Experiment with varying thread counts and problem sizes for empirical analysis.
 
 ---
 
-*"The best way to learn parallel programming is by doing it."*  
-*— Every HPC instructor ever*
+*"Parallel algorithm design requires deep understanding of both*  
+*computational complexity and hardware architecture."*
 
 </div>
